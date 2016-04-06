@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button1001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Home" />
+            
+            <Button
+                android:id="@+id/button1002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Zone" />
+            
+            <Button
+                android:id="@+id/button1003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Hall" />
+            
+            <Button
+                android:id="@+id/button1004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Rank" />
+            
+            <Button
+                android:id="@+id/button1005"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#333366"
+                android:text="About" />
+            
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="6sp" >
+   	</LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+		    	android:layout_width="match_parent"
+		    	android:layout_height="12sp" >
+	    	</LinearLayout>
+			
+            <Button
+	            android:id="@+id/button2"
+	            android:layout_width="280sp"
+	            android:layout_height="320dp"
+	            android:text=""
+	            android:layout_gravity="center_horizontal"
+	            android:background="@drawable/siumrana"/> 
+            
+
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="\nName: Md. Sium Rana (Onu)"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="Dept: Computer Science and Engineering (CSE)"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="Session: 2011-12"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="Cell: 01740542221"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="E-mail: siumranacseru@gmail.com"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="Distict: Sirajgonj\n\nWebsite(URL)"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		    
+		    
+		    
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:textColor="#0000ff"
+		        android:text="www.siumrana.com\n\n"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		    
+		    <Button
+		        android:id="@+id/button1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Click Here To Call Me" />
+		    
+		     <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="\n\n"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		     
+		     <Button
+	            android:id="@+id/button3"
+	            android:layout_width="280sp"
+	            android:layout_height="300dp"
+	            android:text=""
+	            android:layout_gravity="center_horizontal"
+	            android:background="@drawable/sium"/>
+		     
+		     
+		     <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="Me at 2012\n\n\n"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		     <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:textColor="#00ffff"
+		        android:text="Thanks for using my APS"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    
+		</LinearLayout>
+		
+	</ScrollView>
+
+    
+
+</LinearLayout>

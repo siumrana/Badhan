@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button1001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#333366"
+                android:text="Home" />
+            
+            <Button
+                android:id="@+id/button1002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Zone" />
+            
+            <Button
+                android:id="@+id/button1003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Hall" />
+            
+            <Button
+                android:id="@+id/button1004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Rank" />
+            
+            <Button
+                android:id="@+id/button1005"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="About" />
+            
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+        
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="6sp" >
+   	</LinearLayout>
+    
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            	
+            	<TextView
+			        android:id="@+id/textView1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="একের রক্ত, অন্যের জীবন।"
+			        android:textAppearance="?android:attr/textAppearanceMedium" />
+            	
+            	<TextView
+			        android:id="@+id/textView1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="রক্তই হোক, আত্মার বাঁধন।"
+			        android:textAppearance="?android:attr/textAppearanceMedium" />
+            	
+            	<TextView
+			        android:id="@+id/textView2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:textColor="#ff0000"
+			        android:text="বাঁধন"
+			        android:textSize="80sp" />
+            	
+            	<TextView
+			        android:id="@+id/textView2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="(স্বেচ্ছায় রক্তদাতাদের সংগঠন)\n"
+			        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                <Button
+                    android:id="@+id/button101"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Bank" />
+                
+                <Button
+                    android:id="@+id/button105"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Recent Event" />
+
+                <Button
+                    android:id="@+id/button102"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Log In" />
+
+                <Button
+                    android:id="@+id/button103"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registation" />
+                
+                <Button
+                    android:id="@+id/button106"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Web Site" />
+                
+                <Button
+                    android:id="@+id/button104"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Help" />
+                
+                
+
+        </LinearLayout>
+    </ScrollView>
+
+    
+        
+
+</LinearLayout>

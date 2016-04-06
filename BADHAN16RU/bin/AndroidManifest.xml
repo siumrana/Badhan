@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.siumrana.badhan16ru"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.siumrana.badhan16ru.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.AAHU"
+            android:label="@string/title_activity_aahu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.BKZHU"
+            android:label="@string/title_activity_bkzhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.BloodBank"
+            android:label="@string/title_activity_blood_bank" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.BRHU"
+            android:label="@string/title_activity_brhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.BSMRHU"
+            android:label="@string/title_activity_bsmrhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.ByHall"
+            android:label="@string/title_activity_by_hall" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.MBHU"
+            android:label="@string/title_activity_mbhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.MHU"
+            android:label="@string/title_activity_mhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.MuHU"
+            android:label="@string/title_activity_mu_hu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.NALHU"
+            android:label="@string/title_activity_nalhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.ParsonalStock"
+            android:label="@string/title_activity_parsonal_stock" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.PCZ"
+            android:label="@string/title_activity_pcz" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.RHU"
+            android:label="@string/title_activity_rhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.RUZP"
+            android:label="@string/title_activity_ruzp" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.SEBHU"
+            android:label="@string/title_activity_sebhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.SendGroupSMS"
+            android:label="@string/title_activity_send_group_sms" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.SendingSMS"
+            android:label="@string/title_activity_sending_sms" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.SHRHU"
+            android:label="@string/title_activity_shrhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.SMHU"
+            android:label="@string/title_activity_smhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.SSHU"
+            android:label="@string/title_activity_sshu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.SZRU"
+            android:label="@string/title_activity_szru" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.SSJHU"
+            android:label="@string/title_activity_ssjhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.TRHU"
+            android:label="@string/title_activity_trhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.SZHRU"
+            android:label="@string/title_activity_szhru" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.SZRHU"
+            android:label="@string/title_activity_szrhu" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.RecentEvent"
+            android:label="@string/title_activity_recent_event" >
+        </activity>
+        <activity
+            android:name="com.siumrana.badhan16ru.WebSite"
+            android:label="@string/title_activity_web_site" >
+        </activity>
+    </application>
+
+</manifest>

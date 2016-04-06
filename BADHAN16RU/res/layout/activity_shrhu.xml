@@ -1,0 +1,1285 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9999ff" >
+        
+       	<TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical" 
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_weight="1"  
+            android:text="শহীদ হবিবুর রহমান\nহল ইউনিট\n" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/button200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="( Group SMS )"/>
+        
+   	</LinearLayout>
+   	
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="6sp" >
+   	</LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1"  
+	               android:textColor="#0000ff"
+	               android:text="সভাপতি:\nমোঃ মোরসালিন\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="O+" />
+
+	           <Button
+	               android:id="@+id/button101"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#0000ff"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button201"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#0000ff"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সহ-সভাপতি-১:\nমোঃ তামিম হাসান\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="A+" />
+
+	           <Button
+	               android:id="@+id/button102"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button202"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সহ-সভাপতি-২:\nতানভির কবির সিদ্দিকী\n"/>
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="O+" />
+
+	           <Button
+	               android:id="@+id/button103"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button203"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:textColor="#0000ff"
+	               android:text="সাধারণ সম্পাদক:\nসৌরভ দত্ত সৈকত\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B+" />
+
+	           <Button
+	               android:id="@+id/button104"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#0000ff"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button204"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#0000ff"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সহ-সাধাঃ সম্পাদক:\nমোঃ মাহমুদুল হাসান (শাওন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B+" />
+
+	           <Button
+	               android:id="@+id/button105"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button205"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাংগঠনিক সম্পাদক:\nমোঃ সাওয়াদ আরেফিন\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B+" />
+
+	           <Button
+	               android:id="@+id/button106"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button206"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সহ-সাংগঠনিক সম্পাদক:\nমোঃ জাকিরুল ওয়াহিদ অলক\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="A+" />
+
+	           <Button
+	               android:id="@+id/button107"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button207"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="কোষাধক্ষ:\nমোঃ আতিকুর রহমান (আকাশ)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B+" />
+
+	           <Button
+	               android:id="@+id/button108"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button208"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="দপ্তরসম্পদক:\nআব্দুল গাফফার\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="A+" />
+
+	           <Button
+	               android:id="@+id/button109"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button209"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="প্রচার ও প্রকাশনা সম্পাদক:\nমোঃ আবু সাঈদ\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="AB+" />
+
+	           <Button
+	               android:id="@+id/button110"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button210"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="তথ্য ও শিক্ষা বিষয়ক সম্পাদক:\nইয়াহিয়া আহমদ\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="O+" />
+
+	           <Button
+	               android:id="@+id/button111"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button211"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="কার্যকরী সদস্য-১:\nমোঃ আরিফুল ইসলাম\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textColor="#ff0000"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B-" />
+
+	           <Button
+	               android:id="@+id/button112"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           <Button
+	               android:id="@+id/button212"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="কার্যকরী সদস্য-২:\nনজরুল ইসলাম তালুকদার\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="O+" />
+
+	           <Button
+	               android:id="@+id/button113"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button213"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="কার্যকরী সদস্য-৩:\nমোঃ সজীব হাসান\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textColor="#ff0000"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B-" />
+
+	           <Button
+	               android:id="@+id/button114"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button214"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="কার্যকরী সদস্য-৪:\nমোঃ মাজহারুল ইসলাম\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B+" />
+
+	           <Button
+	               android:id="@+id/button115"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button215"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="কার্যকরী সদস্য-৫:\nমোঃ মাসুম বিল্লাহ\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B+" />
+
+	           <Button
+	               android:id="@+id/button116"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button216"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:textColor="#0000ff"
+	               android:text="জোনাল প্রতিনিধি:\nঅমিত সরকার\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="A+" />
+
+	           <Button
+	               android:id="@+id/button117"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#0000ff"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button217"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#0000ff"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-১:\nমোঃ জহিরুল ইসলাম খান\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="O+" />
+
+	           <Button
+	               android:id="@+id/button118"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button218"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-২:\nসাইদুল ইসলাম\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="A+" />
+
+	           <Button
+	               android:id="@+id/button119"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button219"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-৩:\nমোঃ রাইহান মন্ডল \n"/>
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B+" />
+
+	           <Button
+	               android:id="@+id/button120"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button220"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-৪:\nমোবারক হোসেন\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B+" />
+
+	           <Button
+	               android:id="@+id/button121"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button221"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-৫:\nমোঃ ইকবাল হোসেন\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B+" />
+
+	           <Button
+	               android:id="@+id/button122"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button222"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-৬:\nমোঃ ফরহাদ হোসেন\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="A+" />
+
+	           <Button
+	               android:id="@+id/button123"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button223"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-৭:\nরফিকুল ইসলাম\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="B+" />
+
+	           <Button
+	               android:id="@+id/button124"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button224"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-৮:\nঅর্ক\n"/>
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="AB+" />
+
+	           <Button
+	               android:id="@+id/button125"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button225"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-৯:\nরাকিবুল\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="A+" />
+
+	           <Button
+	               android:id="@+id/button126"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button226"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-১০:\nনূরনবী\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="AB+" />
+
+	           <Button
+	               android:id="@+id/button127"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button227"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+            
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারন সদস্য-১১:\nআকাশ\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="A+" />
+
+	           <Button
+	               android:id="@+id/button128"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="Call"/>
+	           
+	           <Button
+	               android:id="@+id/button228"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="SMS"/>
+	           
+            </LinearLayout>
+           
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

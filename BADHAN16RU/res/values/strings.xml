@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BADHAN 16 RU</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_aahu">BADHAN 16 RU</string>
+    <string name="title_activity_about">BADHAN 16 RU</string>
+    <string name="title_activity_bkzhu">BADHAN 16 RU</string>
+    <string name="title_activity_blood_bank">BADHAN 16 RU</string>
+    <string name="title_activity_brhu">BADHAN 16 RU</string>
+    <string name="title_activity_bsmrhu">BADHAN 16 RU</string>
+    <string name="title_activity_by_hall">BADHAN 16 RU</string>
+    <string name="title_activity_mbhu">BADHAN 16 RU</string>
+    <string name="title_activity_mhu">BADHAN 16 RU</string>
+    <string name="title_activity_mu_hu">BADHAN 16 RU</string>
+    <string name="title_activity_nalhu">BADHAN 16 RU</string>
+    <string name="title_activity_parsonal_stock">BADHAN 16 RU</string>
+    <string name="title_activity_pcz">BADHAN 16 RU</string>
+    <string name="title_activity_register">BADHAN 16 RU</string>
+    <string name="title_activity_rhu">BADHAN 16 RU</string>
+    <string name="title_activity_ruzp">BADHAN 16 RU</string>
+    <string name="title_activity_sebhu">BADHAN 16 RU</string>
+    <string name="title_activity_send_group_sms">BADHAN 16 RU</string>
+    <string name="title_activity_sending_sms">BADHAN 16 RU</string>
+    <string name="title_activity_shrhu">BADHAN 16 RU</string>
+    <string name="title_activity_smhu">BADHAN 16 RU</string>
+    <string name="title_activity_sshu">BADHAN 16 RU</string>
+    <string name="title_activity_szru">BADHAN 16 RU</string>
+    <string name="title_activity_ssjhu">BADHAN 16 RU</string>
+    <string name="title_activity_trhu">BADHAN 16 RU</string>
+    <string name="title_activity_szhru">BADHAN 16 RU</string>
+    <string name="title_activity_szrhu">BADHAN 16 RU</string>
+    <string name="title_activity_help">BADHAN 16 RU</string>
+    <string name="title_activity_recent_event">BADHAN 16 RU</string>
+    <string name="title_activity_web_site">BADHAN 16 RU</string>
+
+</resources>

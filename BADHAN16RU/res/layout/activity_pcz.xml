@@ -1,0 +1,736 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button1001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Home" />
+            
+            <Button
+                android:id="@+id/button1002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Zone" />
+            
+            <Button
+                android:id="@+id/button1003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Hall" />
+            
+            <Button
+                android:id="@+id/button1004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#333366"
+                android:text="Rank" />
+            
+            <Button
+                android:id="@+id/button1005"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="About" />
+            
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="6sp" >
+    </LinearLayout>
+    
+    
+            
+        
+	 <LinearLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:background="#9999ff" >
+	    
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_vertical" 
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_vertical"
+        android:layout_weight="1"  
+        android:text="বাঁধন, রা.বি.-১৬\nসকল হল ইউনিট\n" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="" />
+    
+    <Button
+        android:id="@+id/button200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#666666"
+        android:text="Group SMS"/>
+
+    </LinearLayout>
+    
+	 
+	 <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="6sp" >
+    </LinearLayout>
+           
+        
+ 	<ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" > 
+        
+ 	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1"  
+	               android:textColor="#0000ff"
+	               android:text="সভাপতি:\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           <Button
+	               android:id="@+id/button201"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#0000ff"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সহ-সভাপতি-১:\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           <Button
+	               android:id="@+id/button202"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সহ-সভাপতি-২:\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           
+	           <Button
+	               android:id="@+id/button203"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:textColor="#0000ff"
+	               android:text="সাধারণ সম্পাদক :\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           
+	           <Button
+	               android:id="@+id/button204"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#0000ff"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সহ-সাধাঃ সম্পাদক:\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           <Button
+	               android:id="@+id/button205"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাংগঠনিক সম্পাদক:\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           
+	           <Button
+	               android:id="@+id/button206"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সহ-সাংগঠনিক সম্পাদক:\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	          
+	           <Button
+	               android:id="@+id/button207"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="কোষাধক্ষ:\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           
+	           <Button
+	               android:id="@+id/button208"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="দপ্তরসম্পদক:\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           
+	           <Button
+	               android:id="@+id/button209"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="প্রচার ও প্রকাশনা সম্পাদক:\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           
+	           <Button
+	               android:id="@+id/button210"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="তথ্য ও শিক্ষা বিষয়ক সম্পাদক:\n(মোট ১৬+১=১৭ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	        
+	           <Button
+	               android:id="@+id/button211"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="কার্যকরী সদস্য:\n(মোট ৮০+৩=৮৩ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           
+	           <Button
+	               android:id="@+id/button212"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:textColor="#0000ff"
+	               android:text="জোনাল প্রতিনিধি:\n(মোট ১৬ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           
+	           <Button
+	               android:id="@+id/button213"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#0000ff"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccccff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:text="সাধারণ সদস্য:\n(মোট ৩০০+ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text="" />
+
+	           
+	           <Button
+	               android:id="@+id/button214"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#666666"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#ccffff" >
+            
+                <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical" 
+	               android:text=" " />
+
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:gravity="center_vertical"
+	               android:layout_weight="1" 
+	               android:textColor="#0000ff"
+	               android:text="কেন্দ্রীয় প্রতিনিধি:\n(মোট ২ জন)\n" />
+	           
+	           <TextView
+	               android:id="@+id/textView1"
+	               android:layout_width="wrap_content"
+	               android:layout_height="match_parent"
+	               android:textAppearance="?android:attr/textAppearanceMedium"
+	               android:text=" " />
+
+	           
+	           <Button
+	               android:id="@+id/button215"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:textColor="#0000ff"
+	               android:text="Group SMS"/>
+	           
+            </LinearLayout>
+            
+            
+            
+            
+    	</LinearLayout>       
+    </ScrollView>
+
+</LinearLayout>

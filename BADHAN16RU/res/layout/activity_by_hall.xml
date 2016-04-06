@@ -1,0 +1,712 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button1001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Home" />
+            
+            <Button
+                android:id="@+id/button1002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Zone" />
+            
+            <Button
+                android:id="@+id/button1003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#333366"
+                android:text="Hall" />
+            
+            <Button
+                android:id="@+id/button1004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="Rank" />
+            
+            <Button
+                android:id="@+id/button1005"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000ff"
+                android:text="About" />
+            
+        </LinearLayout>
+    </HorizontalScrollView>
+        
+    	<LinearLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="6sp" >
+    	</LinearLayout>
+    	
+    	<LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" 
+           android:background="#9999ff" >
+           
+               <TextView
+               android:id="@+id/textView100"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:gravity="center_vertical" 
+               android:text=" " />
+
+
+           <TextView
+               android:id="@+id/textView200"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:layout_weight="1" 
+               android:text="রাজশাহী বিশ্ববিদ্যালয়\nসকল হল ইউনিট\n" />
+
+           <Button
+               android:id="@+id/button200"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#666666"
+               android:text="Group SMS"/>
+           
+           </LinearLayout>
+	            
+    	<LinearLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="6sp" >
+	    </LinearLayout>
+	        
+        
+     	<ScrollView
+        	android:id="@+id/scrollView2"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent" >
+      
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" >
+            
+	            
+	            	         
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccffff" >
+		           
+	                <TextView
+		               android:id="@+id/textView101"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView201"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1"
+		               android:text="শের ই বাংলা\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button101"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button201"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccccff" >
+		           
+	                <TextView
+		               android:id="@+id/textView102"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView202"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="শাহ্‌ মখ্‌দুম\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button102"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button202"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccffff" >
+		           
+	                <TextView
+		               android:id="@+id/textView103"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView203"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:layout_weight="1"
+		               android:text="নবাব আব্দুল লাতিফ\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button103"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button203"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccccff" >
+		           
+	                <TextView
+		               android:id="@+id/textView104"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView204"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1"
+		               android:text="সৈয়দ আমীর আলী\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button104"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button204"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccffff" >
+		           
+	                <TextView
+		               android:id="@+id/textView105"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView205"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="শহীদ শামসুজ্জোহা\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button105"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button205"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccccff" >
+		           
+	                <TextView
+		               android:id="@+id/textView106"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView206"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:layout_weight="1" 
+		               android:text="শহীদ হবিবুর রহমান\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button106"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button206"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	          
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccffff" >
+		           
+	                <TextView
+		               android:id="@+id/textView107"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView207"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="মতিহার\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button107"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button207"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccccff" >
+		           
+	                <TextView
+		               android:id="@+id/textView108"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView208"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="মাদার বখ্‌শ\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button108"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button208"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccffff" >
+		           
+	                <TextView
+		               android:id="@+id/textView109"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView209"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="শহীদ সোহ্‌রাওয়ার্দী\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button109"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button209"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccccff" >
+		           
+	                <TextView
+		               android:id="@+id/textView110"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView210"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="শহীদ জিয়াউর রহমান\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button110"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button210"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccffff" >
+		           
+	                <TextView
+		               android:id="@+id/textView111"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView211"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="বঙ্গবন্ধু শেখ মুজিবুর রহমান\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button111"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button211"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccccff" >
+		           
+	                <TextView
+		               android:id="@+id/textView120"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView220"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="মুন্নুজান\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button120"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button220"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccffff" >
+		           
+	                <TextView
+		               android:id="@+id/textView121"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView221"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="রোকেয়া\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button121"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button221"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccccff" >
+		           
+	                <TextView
+		               android:id="@+id/textView122"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView222"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="তাপসী রাবেয়া\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button122"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button222"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccffff" >
+		           
+	                <TextView
+		               android:id="@+id/textView123"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView223"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="বেগম খালেদা জিয়া\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button123"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button223"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+	            	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#ccccff" >
+		           
+	                <TextView
+		               android:id="@+id/textView124"
+		               android:layout_width="wrap_content"
+		               android:layout_height="match_parent"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical" 
+		               android:text=" " />
+	
+		           <TextView
+		               android:id="@+id/textView224"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:textAppearance="?android:attr/textAppearanceMedium"
+		               android:gravity="center_vertical"
+		               android:layout_weight="1" 
+		               android:text="রহমতুন্নেছা\nহল ইউনিট\n" />
+	
+		           <Button
+		               android:id="@+id/button124"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="Open"/>
+		           <Button
+		               android:id="@+id/button224"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:text="SMS"/>
+		           
+	            </LinearLayout>
+	            
+	            
+            
+         </LinearLayout>
+         
+     </ScrollView> 
+
+</LinearLayout>
